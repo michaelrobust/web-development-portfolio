@@ -1,0 +1,16 @@
+<main>
+    <h1>Movies Found</h1>
+    <h2>{{searchTerm}}</h2>
+    
+    <ol>
+        {{#each movies}}
+        <li>
+            <a href="/movie/{{imdbID}}">{{Title}}<br>
+                <img class="searchResultImage" alt="{{Title}} Poster" src="{{Poster}}">
+            </a>
+        </li>
+        {{/each}}
+    </ol>
+    
+    <a href="/">Search for Another Movie</a>
+</main>

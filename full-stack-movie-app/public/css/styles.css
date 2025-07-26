@@ -1,0 +1,225 @@
+/* 基本樣式 */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+/* 主要容器 */
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* 標題樣式 */
+h1 {
+    color: #333;
+    text-align: center;
+    border-bottom: 3px solid #007bff;
+    padding-bottom: 10px;
+}
+
+h2 {
+    color: #555;
+    margin-top: 20px;
+}
+
+h3 {
+    color: #666;
+    border-left: 4px solid #007bff;
+    padding-left: 15px;
+}
+
+h4 {
+    color: #666;
+    margin-top: 25px;
+}
+
+/* 表單樣式 */
+form {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+input[type="text"]:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* 搜尋結果圖片 */
+.searchResultImage {
+    width: 75px;
+    height: 117px;
+    object-fit: cover;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+}
+
+/* 列表樣式 */
+ol {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+}
+
+li a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+li a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+/* 電影詳細頁面樣式 */
+article {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+article img {
+    max-width: 300px;
+    height: auto;
+    float: left;
+    margin: 0 20px 20px 0;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+}
+
+section {
+    clear: both;
+    margin: 30px 0;
+}
+
+/* 定義列表樣式 */
+dl {
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+dt {
+    font-weight: bold;
+    color: #555;
+    margin-top: 10px;
+}
+
+dd {
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+/* 表格樣式 */
+.my_coolratings_table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.my_coolratings_table th,
+.my_coolratings_table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.my_coolratings_table th {
+    background-color: #007bff;
+    color: white;
+}
+
+.my_coolratings_table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* 錯誤訊息樣式 */
+.error {
+    color: #dc3545;
+    font-weight: bold;
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.not-found {
+    color: #856404;
+    background-color: #fff3cd;
+    border: 1px solid #ffeaa7;
+    padding: 10px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+/* 連結樣式 */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+/* 響應式設計 */
+@media (max-width: 768px) {
+    main {
+        padding: 10px;
+    }
+    
+    article img {
+        float: none;
+        display: block;
+        margin: 0 auto 20px auto;
+    }
+    
+    input[type="text"] {
+        font-size: 16px;
+    }
+}
