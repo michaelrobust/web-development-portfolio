@@ -30,7 +30,7 @@ A lightweight client-side application that analyzes user input text in real time
 - Built with vanilla JavaScript + Bootstrap
 - Zero backend – runs entirely in browser
 
-➡️ [Read Full README](./frontend-text-analysis/README.md)
+➡️ ➡️ [Read Full README](./frontend-text-analysis-tool/README.md)
 
 ---
 
