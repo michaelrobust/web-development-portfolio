@@ -1,0 +1,21 @@
+<h1>Sign In</h1>
+
+{{#if error}}
+<div class="error">{{error}}</div>
+{{/if}}
+
+<form id="signin-form" method="POST" action="/signinuser">
+    <div>
+        <label for="user_id">User ID:</label>
+        <input type="text" name="user_id" id="user_id" required>
+    </div>
+    
+    <div>
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" required>
+    </div>
+    
+    <button type="submit" name="submit_button" id="submit_button">Sign In</button>
+</form>
+
+<p><a href="/signupuser">Click here to signup!</a></p>

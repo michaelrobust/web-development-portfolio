@@ -1,0 +1,20 @@
+{
+    "name": "lab10-authentication",
+    "version": "1.0.0",
+    "description": "CS-546 Lab 10: Authentication and Middleware",
+    "main": "app.js",
+    "type": "module",
+    "scripts": {
+      "start": "node app.js"
+    },
+    "dependencies": {
+      "express": "^4.18.2",
+      "express-handlebars": "^7.1.2",
+      "express-session": "^1.17.3",
+      "bcrypt": "^5.1.1",
+      "mongodb": "^6.2.0"
+    },
+    "keywords": ["express", "authentication", "mongodb", "middleware"],
+    "author": "YuKaiYeh",
+    "license": "ISC"
+  }

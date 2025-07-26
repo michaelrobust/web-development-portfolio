@@ -1,0 +1,59 @@
+<h1>Sign Up</h1>
+
+{{#if error}}
+<div class="error">{{error}}</div>
+{{/if}}
+
+<form name="signup-form" id="signup-form" method="POST" action="/signupuser">
+    <div>
+        <label for="firstName">First Name:</label>
+        <input type="text" name="firstName" id="firstName" required>
+    </div>
+    
+    <div>
+        <label for="lastName">Last Name:</label>
+        <input type="text" name="lastName" id="lastName" required>
+    </div>
+    
+    <div>
+        <label for="userId">User ID:</label>
+        <input type="text" name="userId" id="userId" required>
+    </div>
+    
+    <div>
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" required>
+    </div>
+    
+    <div>
+        <label for="confirmPassword">Confirm Password:</label>
+        <input type="password" name="confirmPassword" id="confirmPassword" required>
+    </div>
+    
+    <div>
+        <label for="favoriteQuote">Favorite Quote:</label>
+        <input type="text" name="favoriteQuote" id="favoriteQuote" required>
+    </div>
+    
+    <div>
+        <label for="backgroundColor">Background Color:</label>
+        <input type="color" name="backgroundColor" id="backgroundColor" required>
+    </div>
+    
+    <div>
+        <label for="fontColor">Font Color:</label>
+        <input type="color" name="fontColor" id="fontColor" required>
+    </div>
+    
+    <div>
+        <label for="role">Role:</label>
+        <select name="role" id="role" required>
+            <option value="admin">Admin</option>
+            <option value="user">User</option>
+        </select>
+    </div>
+    
+    <button type="submit" name="submitButton" id="submitButton">Sign Up</button>
+</form>
+
+<p><a href="/signinuser
